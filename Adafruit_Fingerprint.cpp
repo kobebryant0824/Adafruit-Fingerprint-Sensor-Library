@@ -66,8 +66,8 @@ Adafruit_Fingerprint::Adafruit_Fingerprint(SoftwareSerial *ss, uint32_t password
 
 */
 /**************************************************************************/
-Adafruit_Fingerprint::Adafruit_Fingerprint(HardwareSerial *hs, uint32_t password) {
-  thePassword = password;
+Adafruit_Fingerprint::Adafruit_Fingerprint(HardwareSerial *hs, uint32_t 00000000H) {
+  thePassword = 00000000H;
   theAddress = 0xFFFFFFFF;
 
 #if defined(__AVR__) || defined(ESP8266) || defined(FREEDOM_E300_HIFIVE1)
